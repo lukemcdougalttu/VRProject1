@@ -3,9 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <title>Project 1</title>
-    <script scr="lib/three.js"></script>
+    <script src="lib/three.js"></script>
+    <script src = "https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+
 </head>
 <body>
+    <a-scene>
+        <a-entity position="0 3 12">
+            <a-camera universal-controls>
+                <a-entity raycaster="far: 150; objects: .intersectable" cursor geometry="primitive: ring; radiusOuter: 0.015;
+                              radiusInner: 0.01; segmentsTheta: 32" material="color: #283644; shader: flat" position="0 0 -0.75"></a-entity>
+            </a-camera>
+        </a-entity>
 
+        <!-- Floor -->
+        <a-entity static-body geometry="primitive: box; depth: 80; height: 0.1; width: 50"  material="shader: flat; side: double; opacity: 1; src: assets/floor.jpg; repeat: 10 10" position="0 0 0">
+        <!-- Front-Wall -->
+        <a-entity static-body geometry="primitive: box; depth: 102; height: 11; width: 1" position="-25.5 5.5 -11" roughness: 1; material="src: assets/wall2.jpg"></a-entity>
+            <!-- Front-Border -->
+            <a-entity static-body geometry="primitive: box; depth: 102; height: 3; width: 1" position="-24.5 12.5 -11" roughness: 1; material="src: assets/wall2.jpg"></a-entity>
+            <!-- Left-Border -->
+            <a-entity static-body geometry="primitive: box; depth: 1; height: 3; width: 50" position="-.2 12.5 -24" roughness: 1; material="src: assets/wall2.jpg"></a-entity>
+            <!-- Left-Wall -->
+            <a-entity static-body geometry="primitive: box; depth: 1; height: 11; width: 50" position="-.2 5.5 -25" roughness: 1; material="src: assets/wall2.jpg"></a-entity>
+            <!-- Right-Wall -->
+            <a-entity static-body geometry="primitive: box; depth: 1; height: 11; width: 50" position="-.2 5.5 40" roughness: 1; material="src: assets/wall2.jpg"></a-entity>
+            <!-- Right Border -->
+            <a-entity static-body geometry="primitive: box; depth: 1; height: 3; width: 50" position="-.2 12.5 39" roughness: 1; material="src: assets/wall2.jpg"></a-entity>
+            <!-- Back-Wall -->
+            <a-entity static-body geometry="primitive: box; depth: 102; height: 11; width: 1" position="25 5.5 -11" material="src: assets/wall2.jpg" roughness: 1;></a-entity>
+            <!-- Back-Border -->
+            <a-entity static-body geometry="primitive: box; depth: 102; height: 3; width: 1" position="24 12.5 -11" material="src: assets/wall2.jpg" roughness: 1;></a-entity>
+            <!-- Ceiling -->
+            <a-entity static-body geometry="primitive: box; depth: 85; height: 0.1; width: 61"  material="shader:flat; side: double; opacity: 1; src: assets/ceiling.jpg; repeat: 10 10" position="2 15 0"></a-entity>
+        </a-entity>
+        <a-light type="ambient" color="#FFFFFF" intensity: 2></a-light>
+    </a-scene>
 </body>
 </html>

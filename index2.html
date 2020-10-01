@@ -9,37 +9,56 @@
 </head>
 <body>
 <a-scene>
-    <a-entity position="0 3 12">
+    <a-entity position="1 1 6" rotation="0 90 0">
         <a-camera universal-controls>
-            <a-entity raycaster="far: 150; objects: .intersectable" cursor geometry="primitive: ring; radiusOuter: 0.015;
-                              radiusInner: 0.01; segmentsTheta: 32" material="color: #283644; shader: flat" position="0 0 -0.75"></a-entity>
+            <a-entity cursor="fuse: true; maxDistance: 20; timeout: 250" position="0 0 -5" geometry="primitive: ring" material="color: white; shader: flat" rotation="" scale="0.1 0.1 0.1" visible="" raycaster="">
+            </a-entity>
         </a-camera>
     </a-entity>
     <!-- Floor -->
-    <a-entity static-body geometry="primitive: box; depth: 80; height: 0.1; width: 50"  material="shader: flat; side: double; opacity: 1; src: assets/floor.jpg; repeat: 10 10" position="0 0 0"></a-entity>
+    <a-entity static-body geometry="primitive: box; depth: 32; height: 0.1; width: 50"  material="shader: flat; side: double; opacity: 1; src: assets/floor.jpg; repeat: 2 2" position="0 0 0"></a-entity>
     <!-- Front-Wall -->
-    <a-entity static-body geometry="primitive: box; depth: 102; height: 11; width: 1" position="-25.5 5.5 -11" roughness: 1; material="src: assets/wall2.jpg"></a-entity>
+    <a-entity static-body geometry="primitive: box; depth: 50; height: 11; width: 1" position="-24.5 5.5 -11" roughness: 1; material="src: assets/wall2.jpg"></a-entity>
     <!-- Front-Border -->
-    <a-entity static-body geometry="primitive: box; depth: 102; height: 3; width: 1" position="-24.5 12.5 -11" roughness: 1; material="src: assets/wall2.jpg"></a-entity>
+    <a-entity static-body geometry="primitive: box; depth: 50; height: 3; width: 1" position="-24.5 12.5 -11" roughness: 1; material="src: assets/wall2.jpg"></a-entity>
     <!-- Left-Border -->
-    <a-entity static-body geometry="primitive: box; depth: 1; height: 3; width: 50" position="-.2 12.5 -24" roughness: 1; material="src: assets/wall2.jpg"></a-entity>
+    <a-entity static-body geometry="primitive: box; depth: 1; height: 3; width: 50" position="-.2 12.5 -16" roughness: 1; material="src: assets/wall2.jpg"></a-entity>
     <!-- Left-Wall -->
-    <a-entity static-body geometry="primitive: box; depth: 1; height: 11; width: 50" position="-.2 5.5 -25" roughness: 1; material="src: assets/wall2.jpg"></a-entity>
+    <a-entity static-body geometry="primitive: box; depth: 1; height: 11; width: 50" position="-.2 5.5 -16" roughness: 1; material="src: assets/wall2.jpg"></a-entity>
     <!-- Right-Wall -->
-    <a-entity static-body geometry="primitive: box; depth: 1; height: 11; width: 50" position="-.2 5.5 40" roughness: 1; material="src: assets/wall2.jpg"></a-entity>
+    <a-entity static-body geometry="primitive: box; depth: 1; height: 11; width: 50" position="-.2 5.5 13" roughness: 1; material="src: assets/wall2.jpg"></a-entity>
     <!-- Right Border -->
-    <a-entity static-body geometry="primitive: box; depth: 1; height: 3; width: 50" position="-.2 12.5 39" roughness: 1; material="src: assets/wall2.jpg"></a-entity>
+    <a-entity static-body geometry="primitive: box; depth: 1; height: 3; width: 50" position="-.2 12.5 13" roughness: 1; material="src: assets/wall2.jpg"></a-entity>
     <!-- Back-Wall -->
-    <a-entity static-body geometry="primitive: box; depth: 102; height: 11; width: 1" position="25 5.5 -11" material="src: assets/wall2.jpg" roughness: 1;></a-entity>
+    <a-entity static-body geometry="primitive: box; depth: 50; height: 11; width: 1" position="25 5.5 -11" material="src: assets/wall2.jpg" roughness: 1;></a-entity>
     <!-- Back-Border -->
-    <a-entity static-body geometry="primitive: box; depth: 102; height: 3; width: 1" position="24 12.5 -11" material="src: assets/wall2.jpg" roughness: 1;></a-entity>
+    <a-entity static-body geometry="primitive: box; depth: 50; height: 3; width: 1" position="24 12.5 -11" material="src: assets/wall2.jpg" roughness: 1;></a-entity>
     <!-- Ceiling -->
     <a-entity static-body geometry="primitive: box; depth: 85; height: 0.1; width: 61"  material="shader:flat; side: double; opacity: 1; src: assets/ceiling.jpg; repeat: 10 10" position="2 15 0"></a-entity>
     <!-- Objects -->
-    <a-entity obj-model="obj: url(assets/Table And Chairs.obj); mtl=: url(assets/Table And Chairs.mtl)" material="src: assets/table-texture.jpg"></a-entity>
+    <a-entity obj-model="obj: url(assets/Table.obj); mtl=: url(assets/Table.mtl)" material="src: assets/Black-Wood1.jpg" position="-2 .2 -14" scale=".07 .07 .07" ></a-entity>
+
+    <a-entity obj-model="obj: url(assets/Chair.obj); mtl=: url(assets/Chair.mtl)" material="src: assets/wood.jpg" position="-2 0 -13" scale=".03 .03 .03" rotation="180 360 180" ></a-entity>
+
+    <a-entity obj-model="obj: url(assets/Smart TV.obj); mtl=: url(assets/Smart TV.mtl)" material="src: assets/table-texture.jpg" position="2.3 5 -15" scale=".007 .007 .007" ></a-entity>
+
+    <a-entity obj-model="obj: url(assets/Moniter.obj); mtl=: url(assets/Moniter.mtl)" position="-2 2.2 -14" scale=".05 .05 .05"></a-entity>
+
+    <a-entity obj-model="obj: url(assets/Bed.obj); mtl=: url(assets/Bed.mtl)" material="src: assets/Black-Wood1.jpg" position="18 0 -12" scale=".035 .035 .02" ></a-entity>
+
+    <a-entity obj-model="obj: url(assets/Dresser.obj); mtl=: url(assets/Dresser.mtl)" material="src: assets/Black-Wood1.jpg" position="-21 0 -10" scale=".003 .006 .003" ></a-entity>
+
+    <a-entity obj-model="obj: url(assets/NightStand.obj); mtl=: url(assets/NightStand.mtl)" material="src: assets/Black-Wood1.jpg" position="10 0 -14.5" scale=".1 .1 .1" ></a-entity>
+
+    <a-entity obj-model="obj: url(assets/Guitar.obj); mtl=: url(assets/Guitar.mtl)" material="src: assets/wood.jpg" position="24.7 1.45 -5" scale=".03 .03 .03" rotation="186 90 180"></a-entity>
+
+    <!-- Portal -->
+    <a-link href="index.html" title="COVID-19" image="src: assets/Black_photo.jpg" position="0 5 0"></a-link>
+
     <!-- Sound -->
     <a-entity id="blink" sound="src: url(assets/blink-182-I Miss You.mp3); autoplay: true"></a-entity>
-    <! -- Light -->
+
+    <!-- Light -->
     <a-light type="ambient" color="#FFFFFF" intensity: 2></a-light>
 </a-scene>
 </body>

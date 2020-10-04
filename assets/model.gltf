@@ -4,80 +4,40 @@
          "bufferView" : 2,
          "byteOffset" : 0,
          "componentType" : 5126,
-         "count" : 2366,
+         "count" : 5374,
          "max" : [ 1, 1, 1, 1 ],
-         "min" : [ 0, 0.006584956776350737, 0.006584956776350737, 1 ],
-         "name" : "accessor_color_m0-PolyPaper21_-24978",
-         "type" : "VEC4"
-      },
-      {
-         "bufferView" : 2,
-         "byteOffset" : 37856,
-         "componentType" : 5126,
-         "count" : 104,
-         "max" : [ 1, 1, 1, 1 ],
-         "min" : [ 1, 1, 1, 1 ],
-         "name" : "accessor_color_m1-PolyGlass24_-24984",
+         "min" : [ 0.006584956776350737, 0.006584956776350737, 0.006584956776350737, 1 ],
+         "name" : "accessor_color_m0-PolyPaper20_-42780",
          "type" : "VEC4"
       },
       {
          "bufferView" : 0,
          "byteOffset" : 0,
          "componentType" : 5123,
-         "count" : 3198,
-         "max" : [ 2365 ],
+         "count" : 7848,
+         "max" : [ 5373 ],
          "min" : [ 0 ],
-         "name" : "accessor_indices_0_m0-PolyPaper21_-24978",
-         "type" : "SCALAR"
-      },
-      {
-         "bufferView" : 0,
-         "byteOffset" : 6396,
-         "componentType" : 5123,
-         "count" : 162,
-         "max" : [ 103 ],
-         "min" : [ 0 ],
-         "name" : "accessor_indices_0_m1-PolyGlass24_-24984",
+         "name" : "accessor_indices_0_m0-PolyPaper20_-42780",
          "type" : "SCALAR"
       },
       {
          "bufferView" : 1,
-         "byteOffset" : 28392,
+         "byteOffset" : 64488,
          "componentType" : 5126,
-         "count" : 2366,
-         "max" : [ 1, 1, 1 ],
-         "min" : [ -1, -1, -1 ],
-         "name" : "accessor_normal_m0-PolyPaper21_-24978",
-         "type" : "VEC3"
-      },
-      {
-         "bufferView" : 1,
-         "byteOffset" : 58032,
-         "componentType" : 5126,
-         "count" : 104,
-         "max" : [ 0.9979459000000001, 1, 0.997946 ],
-         "min" : [ -0.997946, -1, -0.997946 ],
-         "name" : "accessor_normal_m1-PolyGlass24_-24984",
+         "count" : 5374,
+         "max" : [ 0.9999002, 0.9999843, 0.9999549 ],
+         "min" : [ -0.9986231, -0.9999378, -0.9999548 ],
+         "name" : "accessor_normal_m0-PolyPaper20_-42780",
          "type" : "VEC3"
       },
       {
          "bufferView" : 1,
          "byteOffset" : 0,
          "componentType" : 5126,
-         "count" : 2366,
-         "max" : [ 1.399985, 1.007833, 0.03994539 ],
-         "min" : [ 0.7119411, -0.2600105, -0.8200558 ],
-         "name" : "accessor_position_m0-PolyPaper21_-24978",
-         "type" : "VEC3"
-      },
-      {
-         "bufferView" : 1,
-         "byteOffset" : 56784,
-         "componentType" : 5126,
-         "count" : 104,
-         "max" : [ 1.172373, 1.097833, -0.5276664 ],
-         "min" : [ 0.9875969, 0.8099899, -0.7124424 ],
-         "name" : "accessor_position_m1-PolyGlass24_-24984",
+         "count" : 5374,
+         "max" : [ 0.02561528, 2.6496, 1.099836 ],
+         "min" : [ -1.251893, 0.5115001, -0.1930351 ],
+         "name" : "accessor_position_m0-PolyPaper20_-42780",
          "type" : "VEC3"
       }
    ],
@@ -92,23 +52,23 @@
    "bufferViews" : [
       {
          "buffer" : 0,
-         "byteLength" : 6720,
+         "byteLength" : 15696,
          "byteOffset" : 0,
          "name" : "ushortBufferView",
          "target" : 34963
       },
       {
          "buffer" : 0,
-         "byteLength" : 59280,
-         "byteOffset" : 6720,
+         "byteLength" : 128976,
+         "byteOffset" : 15696,
          "byteStride" : 12,
          "name" : "vec3BufferView",
          "target" : 34962
       },
       {
          "buffer" : 0,
-         "byteLength" : 39520,
-         "byteOffset" : 66000,
+         "byteLength" : 85984,
+         "byteOffset" : 144672,
          "byteStride" : 16,
          "name" : "vec4BufferView",
          "target" : 34962
@@ -116,7 +76,7 @@
    ],
    "buffers" : [
       {
-         "byteLength" : 105520,
+         "byteLength" : 230656,
          "name" : "model",
          "uri" : "model.bin"
       }
@@ -191,31 +151,16 @@
    ],
    "meshes" : [
       {
-         "name" : "mesh_m0-PolyPaper21_-24978",
+         "name" : "mesh_m0-PolyPaper20_-42780",
          "primitives" : [
             {
                "attributes" : {
                   "COLOR_0" : 0,
-                  "NORMAL" : 4,
-                  "POSITION" : 6
+                  "NORMAL" : 2,
+                  "POSITION" : 3
                },
-               "indices" : 2,
+               "indices" : 1,
                "material" : 0,
-               "mode" : 4
-            }
-         ]
-      },
-      {
-         "name" : "mesh_m1-PolyGlass24_-24984",
-         "primitives" : [
-            {
-               "attributes" : {
-                  "COLOR_0" : 1,
-                  "NORMAL" : 5,
-                  "POSITION" : 7
-               },
-               "indices" : 3,
-               "material" : 1,
                "mode" : 4
             }
          ]
@@ -223,37 +168,33 @@
    ],
    "nodes" : [
       {
-         "mesh" : 1,
-         "name" : "node_MeshObject-34567168-PolyGlass24"
-      },
-      {
          "mesh" : 0,
-         "name" : "node_MeshObject-606646272-PolyPaper21"
+         "name" : "node_MeshObject-1879130880-PolyPaper20"
       },
       {
-         "children" : [ 3 ]
+         "children" : [ 2 ]
       },
       {
-         "children" : [ 4 ],
+         "children" : [ 3 ],
          "extras" : {
             "isTransformNode" : 1
          },
-         "translation" : [ 1.087798233657116, 0.4079839024797623, -0.3867798851845859 ]
+         "translation" : [ -0.6099449691093901, 1.201274301282737, 0.4427182731684685 ]
       },
       {
-         "children" : [ 1, 0 ],
-         "translation" : [ -1.087798233657116, -0.4079839024797623, 0.3867798851845859 ]
+         "children" : [ 0 ],
+         "translation" : [ 0.6099449691093901, -1.201274301282737, -0.4427182731684685 ]
       },
       {
          "camera" : 0,
-         "children" : [ 6 ],
+         "children" : [ 5 ],
          "rotation" : [
-            0.07221209621589551,
-            0.8700272155853991,
-            0.1339808828334728,
-            -0.4689212943938326
+            -0.005290098855270348,
+            0.9922460920821908,
+            0.1155720082796736,
+            0.04541826178889895
          ],
-         "translation" : [ -0.9706254392585327, 1.141393720375173, -1.786448346445386 ]
+         "translation" : [ -0.1986067593097687, 2.466122150421143, -2.90983247756958 ]
       },
       {
          "extensions" : {
@@ -265,7 +206,7 @@
             "isHeadLight" : 1
          },
          "name" : "headLightNode",
-         "translation" : [ -0.9273617467282761, 0.463680873364138, 0.463680873364138 ]
+         "translation" : [ -1.362446392125242, 0.6812231960626209, 0.6812231960626209 ]
       },
       {
          "extensions" : {
@@ -278,8 +219,8 @@
          },
          "name" : "keyLightNode",
          "rotation" : [ -0.7505326882858236, -0.3752663441429118, 0, 0.5439447166468927 ],
-         "scale" : [ 0, 0, 0.9366353641955588 ],
-         "translation" : [ 0.06015367859485021, 2.199681847160668, -1.331432561656069 ]
+         "scale" : [ 0, 0, 1.376070856046494 ],
+         "translation" : [ -1.924820983693888, 4.278013113237562, -1.109398836188471 ]
       }
    ],
    "scene" : 0,
@@ -287,31 +228,29 @@
       {
          "extensions" : {
             "GOOGLE_backgrounds" : {
-               "color" : [ 0.9372549019607843, 0.4235294117647059, 0 ]
+               "color" : [ 0.9568627450980393, 0.2627450980392157, 0.2117647058823529 ]
             },
-            "GOOGLE_camera_settings" : {
-               "pivot" : [ 1.098513207866128, 0.3599258819805608, -0.4245341309578611 ]
-            }
+            "GOOGLE_camera_settings" : {}
          },
          "extras" : {
             "GOOGLE_camera_index" : {
                "cameraIndex" : 0,
-               "nodeIndex" : 5
+               "nodeIndex" : 4
             },
             "GOOGLE_geometry_data" : {
                "stats" : {
-                  "centroid" : [ 0.996789042790409, 0.3264111187695506, -0.3947971974605098 ],
-                  "radius" : 0.9273617467282761,
-                  "stdev" : 0.4439687845825972
+                  "centroid" : [ -0.5487501276473936, 1.525871401144574, 0.2666720198580237 ],
+                  "radius" : 1.362446392125242,
+                  "stdev" : 0.5144437797428634
                },
-               "visualCenterPoint" : [ 1.087798233657116, 0.4079839024797623, -0.3867798851845859 ]
+               "visualCenterPoint" : [ -0.6099449691093901, 1.201274301282737, 0.4427182731684685 ]
             },
             "GOOGLE_hemi_light" : {
-               "groundColor" : [ 0.9372549019607843, 0.4235294117647059, 0 ]
+               "groundColor" : [ 0.9568627450980393, 0.2627450980392157, 0.2117647058823529 ]
             }
          },
          "name" : "defaultScene",
-         "nodes" : [ 2, 5, 7 ]
+         "nodes" : [ 1, 4, 6 ]
       }
    ]
 }

@@ -16,24 +16,31 @@
         </a-camera>
     </a-entity>
 
-    <!-- Floor -->
+    <!-- Lighting -->
+    <a-light type="point" color="#636363" position="0 5 0"></a-light>
+
+    <!-- Sky -->
+    <a-sky color="#222"></a-sky>
+
+    <!-- Floor -->"
     <a-entity static-body geometry="primitive: box; depth: 32; height: 0.1; width: 50"  material="shader: flat; side: double; opacity: 1; src: assets/Wood-texture.png; repeat: 2 2" position="0 0 0"></a-entity>
     <!-- Front-Wall -->
-    <a-entity static-body geometry="primitive: box; depth: 50; height: 11; width: 1" position="-15 5.5 -11" roughness: 1; material="src: assets/Wall-texture.png"></a-entity>
+    <a-entity static-body geometry="primitive: box; depth: 50; height: 11; width: 1" position="-15 5.5 -11" roughness: 1; material="src: assets/dark-grey.jpg"></a-entity>
     <!-- Front-Border -->
-    <a-entity static-body geometry="primitive: box; depth: 50; height: 3; width: 1" position="-15 12.5 -11" roughness: 1; material="src: assets/Wall-texture.png"></a-entity>
+    <a-entity static-body geometry="primitive: box; depth: 50; height: 3; width: 1" position="-15 12.5 -11" roughness: 1; material="src: assets/dark-grey.jpg"></a-entity>
     <!-- Left-Border -->
-    <a-entity static-body geometry="primitive: box; depth: 1; height: 3; width: 50" position="-.2 12.5 -16" roughness: 1; material="src: assets/Wall-texture.png"></a-entity>
+    <a-entity static-body geometry="primitive: box; depth: 1; height: 3; width: 50" position="-.2 12.5 -16" roughness: 1; material="src: assets/dark-grey.jpg"></a-entity>
     <!-- Left-Wall -->
-    <a-entity static-body geometry="primitive: box; depth: 1; height: 11; width: 50" position="-.2 5.5 -16" roughness: 1; material="src: assets/Wall-texture.png"></a-entity>
+    <a-entity static-body geometry="primitive: box; depth: 1; height: 11; width: 50" position="-.2 5.5 -16" roughness: 1; material="src: assets/dark-grey.jpg"></a-entity>
     <!-- Right-Wall -->
-    <a-entity static-body geometry="primitive: box; depth: 1; height: 11; width: 50" position="-.2 5.5 13" roughness: 1; material="src: assets/Wall-texture.png"></a-entity>
+    <a-entity static-body geometry="primitive: box; depth: 1; height: 11; width: 50" position="-.2 5.5 13" roughness: 1; material="src: assets/dark-grey.jpg"></a-entity>
     <!-- Right Border -->
-    <a-entity static-body geometry="primitive: box; depth: 1; height: 3; width: 50" position="-.2 12.5 13" roughness: 1; material="src: assets/Wall-texture.png"></a-entity>
+    <a-entity static-body geometry="primitive: box; depth: 1; height: 3; width: 50" position="-.2 12.5 13" roughness: 1; material="src: assets/dark-grey.jpg"></a-entity>
     <!-- Back-Wall -->
-    <a-entity static-body geometry="primitive: box; depth: 50; height: 11; width: 1" position="25 5.5 -11" material="src: assets/Wall-texture.png" roughness: 1;></a-entity>
+    <a-entity static-body geometry="primitive: box; depth: 50; height: 11; width: 1" position="25 5.5 -11" material="src: assets/dark-grey.jpg" roughness: 1;></a-entity>
     <!-- Back-Border -->
-    <a-entity static-body geometry="primitive: box; depth: 50; height: 3; width: 1" position="25 12.5 -11" material="src: assets/Wall-texture.png" roughness: 1;></a-entity>
+    <a-entity static-body geometry="primitive: box; depth: 50; height: 3; width: 1" position="25 12.5 -11" material="src: assets/dark-grey.jpg" roughness: 1;></a-entity>
+
     <!-- Ceiling -->
     <a-entity static-body geometry="primitive: box; depth: 85; height: 0.1; width: 61"  material="shader:flat; side: double; opacity: 1; src: assets/Ceiling-texture.jpg; repeat: 2 2" position="2 15 0"></a-entity>
 
@@ -48,7 +55,7 @@
 
     <a-entity obj-model="obj: url(assets/Guitar.obj); mtl=: url(assets/Guitar.mtl)" material="src: assets/wood.jpg" position="24.7 1.45 -5" scale=".03 .03 .03" rotation="186 90 180"></a-entity>
 
-    <a-gltf-model id="nightstand" src="assets/model.gltf" position="10.5 .5 -12.5" scale="2 2 2.4" rotation="180 265 180" gltf-model="assets/model.gltf"></a-gltf-model>
+    <a-gltf-model id="nightstand" src="assets/model.gltf" position="10.5 -1 -12.5" scale="2 2 2.4" rotation="180 40 180" gltf-model="assets/model.gltf"></a-gltf-model>
 
     <a-gltf-model id="bed" src="assets/Bed_01.gltf" position="19 0 -13" scale="0.8 0.45 0.3" gltf-model="assets/Bed_01.gltf"></a-gltf-model>
 
@@ -85,10 +92,13 @@
     <a-gltf-model id="Virus" src="assets/virus.glb" position="17 6 -14" scale="15 15 15" gltf-model="assets/virus.glb"></a-gltf-model>
 
     <a-gltf-model id="Virus" src="assets/virus.glb" position="18 6 -12" scale="15 15 15" gltf-model="assets/virus.glb"></a-gltf-model>
-    <!-- Poster -->
-    <a-plane color="#CCC" height="2.5" width="2" position="5 7 -14" src="assets/lofi-poster.jpg"></a-plane>
 
-    <a-plane color="#CCC" height="2.5" width="2" position="8 7 -14" src="assets/Spiderman.jpg"></a-plane>
+    <a-gltf-model id="Basketball=" src="assets/Basketball.gltf" material="src: assets/DefaultMaterial_Base_Color.png" position="24 .5 -8.1" scale="3 3 3" gltf-model="assets/Basketball.gltf"></a-gltf-model>
+
+    <!-- Posters -->
+    <a-plane color="#CCC" height="4" width="3.5" position="5 7 -14" src="assets/lofi-poster.jpg"></a-plane>
+
+    <a-plane color="#CCC" height="4" width="3.5" position="9 7 -14" src="assets/Spiderman.jpg"></a-plane>
 
     <!-- Portal -->
     <a-link href="index2.html"  title="Covid Mode" image="assets/Black_photo.jpg" position="0 5 0"></a-link>
@@ -96,9 +106,8 @@
            link="on: click; href: index.html" class="intersectable" position="0 5 0"></a-box>
 
     <!-- Song -->
-    <a-box material="transparent:true; opacity:0" depth="1" height="2.5" width="2"
+    <a-box material="transparent:true; opacity:0" depth="1" height="4" width="3.5"
            sound="src: url(assets/Lofi.mp3); on: click" class="intersectable" position="5 7 -14"></a-box>
-
 </a-scene>
 </body>
 </html>

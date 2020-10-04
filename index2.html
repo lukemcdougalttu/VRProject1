@@ -9,7 +9,7 @@
 </head>
 <body>
 <a-scene>
-    <a-entity position="0 3 12">
+    <a-entity position="0 3 10">
         <a-camera universal-controls>
             <a-entity raycaster="far: 150; objects: .intersectable" cursor geometry="primitive: ring; radiusOuter: 0.015;
                               radiusInner: 0.01; segmentsTheta: 32" material="color: #283644; shader: flat" position="0 0 -0.75"></a-entity>
@@ -75,9 +75,9 @@
 
     <a-gltf-model id="Clock" src="assets/Analog_Clock_01.gltf" position="18 7 -15" scale=".3 .3 .3" gltf-model="assets/Analog_Clock_01.gltf"></a-gltf-model>
 
-    <a-gltf-model id="Paper Towels" src="assets/Paper_towels_01.gltf" position="0.5 3 -13.5" scale="0.05 0.05 0.03" gltf-model="assets/Paper_towels_01.gltf"></a-gltf-model>
+    <a-gltf-model id="Paper Towels" src="assets/Paper_towels_01.gltf" position="0.1 2.5 -14" scale="0.05 0.05 0.03" gltf-model="assets/Paper_towels_01.gltf"></a-gltf-model>
 
-    <a-gltf-model id="Spray Bottle" src="assets/Windex.gltf" material="assets/WindexRender.png" position="0 3 -13.5" scale="0.2 0.2 0.2" gltf-model="assets/Windex.gltf"></a-gltf-model>
+    <a-gltf-model id="Spray Bottle" src="assets/Windex.gltf" material="assets/WindexRender.png" position="-.3 2.5 -14" scale="0.2 0.2 0.2" gltf-model="assets/Windex.gltf"></a-gltf-model>
 
     <a-gltf-model id="Mask" src="assets/mask.glb" position="-12 5.4 -9" scale="3 3 3" gltf-model="assets/mask.glb"></a-gltf-model>
 
@@ -94,6 +94,11 @@
     <a-gltf-model id="Virus" src="assets/virus.glb" position="18 6 -12" scale="15 15 15" gltf-model="assets/virus.glb"></a-gltf-model>
 
     <a-gltf-model id="Basketball=" src="assets/Basketball.gltf" material="src: assets/DefaultMaterial_Base_Color.png" position="24 .5 -8.1" scale="3 3 3" gltf-model="assets/Basketball.gltf"></a-gltf-model>
+
+    <a-entity geometry="primitive: plane; width: 4; height: 4" material="color: blue" position="5 5 0"></a-entity>
+    <a-entity text="font: mozillavr; width: 3.5; value: 1. Press left mouse button to grab screen and move mouse to look around." position="5 6.5 0" ></a-entity>
+    <a-entity text="font: mozillavr; width: 3.5; value: 2. Use keyboard buttons to move around in room" position="5 5.5 0" ></a-entity>
+    <a-entity text="font: mozillavr; width: 3.5; value: 3. Hover over the blue poster. Click on poster and a song will play." position="5 4.5 0" ></a-entity>
 
     <!-- Posters -->
     <a-plane color="#CCC" height="4" width="3.5" position="5 7 -14" src="assets/lofi-poster.jpg"></a-plane>

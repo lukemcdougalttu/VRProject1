@@ -9,5 +9,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="aframe" level="application" />
+    <orderEntry type="library" name="aframe-extras" level="application" />
+    <orderEntry type="library" name="aframe-click-drag-component" level="application" />
   </component>
 </module>

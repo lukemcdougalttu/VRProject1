@@ -28,9 +28,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -76,12 +76,16 @@
       <workItem from="1600375903157" duration="6784000" />
       <workItem from="1600547635149" duration="973000" />
       <workItem from="1600548972466" duration="9377000" />
-      <workItem from="1601241922514" duration="53689000" />
+      <workItem from="1601241922514" duration="57536000" />
+      <workItem from="1601772841383" duration="32740000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.bin" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -93,24 +97,25 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600211674672">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1600211674672" />
-    <state x="305" y="143" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601500983681">
+    <state x="305" y="143" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601800839105">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="305" y="143" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1601500983681" />
-    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601491988588">
+    <state x="305" y="143" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1601800839105" />
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601803475395">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1601491988588" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1600376195160">
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1601803475395" />
+    <state x="250" y="0" key="SettingsEditor" timestamp="1601513326656">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1600376195160" />
+    <state x="250" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1601513326656" />
     <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601343098133">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

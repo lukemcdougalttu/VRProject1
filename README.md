@@ -21,11 +21,9 @@ The desk is a big part of my room because I sit in it everyday and do school wor
 
 
 
-
 # Posters
 
 I added 2 posters one of lofi hip hop and one of spiderman. If you click on the lofi hip hop poster lofi hip hop music will play. 
-
 
 
 
@@ -45,4 +43,8 @@ I have bought Disinfectant Spray and Paper Towels and keep them on my desk at al
 # Virus 
 
 I made a virus looking object in blender made it red to look like a covid cell. I placed it on common area I am at in my room.
+
+# Conculsion
+
+In conclusion, I think this was a great first project for virtual reality. I felt that I learned the basics of Aframe and I feel confident in my ability to code in AFrame. I would to make a new project in future. 
 

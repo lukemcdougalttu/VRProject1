@@ -6,6 +6,8 @@ This is my project for Virtual Reality CS4431. This is a Web-Based VR. I created
 [![](http://img.youtube.com/vi/W-xD1b6vwOQ/0.jpg)](http://www.youtube.com/watch?v=W-xD1b6vwOQ "")
 
 
+
+https://lukemcdougalttu.github.io/VRProject1/
 # Instructions 
 
 I added a instruction sheet for the user to understand and be confortable in the environment. 

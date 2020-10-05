@@ -7,7 +7,7 @@ This is my project for Virtual Reality CS4431. This is a Web-Based VR. I created
 I added a instruction sheet for the user to understand and be confortable in the environment. 
 
 
-# Dog and Nightstand
+# Dog and Dresser
 
 I added a dog named Ike and a nightstand that is located to the left of my desk.
 
